@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Exercise</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form>
+<div>
+	<label for="First Name">First Name:</label>
+	<input id="First Name" type="text" name="First Name" placeholder="John" required>
+
+	<label for="Last Name">Last Name:</label>
+	<input id="Last Name" type="text" name="Last Name" placeholder="Smith" required>
+</div>
+<div>
+	<label for="male">Male</label>
+	<input id="male" type="radio" name="gender" value="male">
+
+	<label for="female">Female</label>
+	<input id="female" type="radio" name="gender" value="female">
+
+	<label for="other">Other</label>
+	<input id="other" type="radio" name="gender" value="other">
+</div>
+<div>
+	<label for="email">Email:</label>
+	<input id="email" type="email" name="email" required>
+	<label for="password">Password:</label>
+	<input id="password" type="password" name="" minlength="5" maxlength="10" required>
+</div>
+<div>
+	<label for="birthday">Birthday:</label>
+	<select id="birthday" name="birthday_month">
+		<option>Month</option>
+		<option>January</option>
+		<option>February</option>
+		<option>March</option>
+		<option>April</option>
+		<option>May</option>
+	</select>
+	<select id="birthday" name="birthday_day">
+		<option>Day</option>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+	</select>
+		<select id="birthday" name="birthday_year">
+		<option>Year</option>
+		<option>1990</option>
+		<option>1991</option>
+		<option>1992</option>
+		<option>1993</option>
+		<option>1994</option>
+	</select>
+</div>
+<div>
+	I agree to the term and conditions
+	<input type="checkbox" name="termConditions">
+</div>
+<button>Submit</button>	
+</form>
+
+</body>
+</html>
+
