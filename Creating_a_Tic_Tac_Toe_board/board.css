@@ -1,0 +1,18 @@
+table {
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+tr {
+	border: 1px solid black;
+}
+
+/*.left-column {
+	border-left: transparent;
+}
+
+.right-column {
+	border-right: transparent;
+}*/
